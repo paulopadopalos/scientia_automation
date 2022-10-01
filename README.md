@@ -14,5 +14,6 @@ This script will work as follows:
     - There is only one _Activity_ attached.
     - The real size of that _Activity_ is smaller than the real size of the _Module_.
 - It iterates through the members of the newly created _Activity Template Group_ and attaches all the _Student Sets_ of the _Module_ to the _Activity_. This has the effect of allocating them.
+- Once completed, the script writes back the changes to the SDB.
 
 Note that for this script to work, _Student Set_ objects corresponding to real students cannot have a size of zero.
